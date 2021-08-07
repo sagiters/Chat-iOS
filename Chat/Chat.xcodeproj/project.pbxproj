@@ -13,6 +13,9 @@
 		0413BF1326BE50BE001F89F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0413BF1226BE50BE001F89F7 /* Preview Assets.xcassets */; };
 		0413BF1E26BE50BE001F89F7 /* ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413BF1D26BE50BE001F89F7 /* ChatTests.swift */; };
 		0413BF2926BE50BF001F89F7 /* ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413BF2826BE50BF001F89F7 /* ChatUITests.swift */; };
+		0413BF3D26BE5197001F89F7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413BF3C26BE5197001F89F7 /* LoginView.swift */; };
+		0413BF3F26BE51AA001F89F7 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413BF3E26BE51AA001F89F7 /* RegistrationView.swift */; };
+		043EC92026BE621F00D9CE27 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EC91F26BE621F00D9CE27 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		0413BF2426BE50BE001F89F7 /* ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0413BF2826BE50BF001F89F7 /* ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUITests.swift; sourceTree = "<group>"; };
 		0413BF2A26BE50BF001F89F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0413BF3C26BE5197001F89F7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0413BF3E26BE51AA001F89F7 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		043EC91F26BE621F00D9CE27 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,11 @@
 		0413BF0A26BE50BC001F89F7 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				0413BF3A26BE5124001F89F7 /* Model */,
+				0413BF3926BE5122001F89F7 /* View */,
+				0413BF3826BE5121001F89F7 /* ViewModel */,
+				0413BF3726BE511F001F89F7 /* API */,
+				0413BF3626BE5112001F89F7 /* Utils */,
 				0413BF0B26BE50BC001F89F7 /* ChatApp.swift */,
 				0413BF0D26BE50BC001F89F7 /* ContentView.swift */,
 				0413BF0F26BE50BE001F89F7 /* Assets.xcassets */,
@@ -128,6 +139,52 @@
 				0413BF2A26BE50BF001F89F7 /* Info.plist */,
 			);
 			path = ChatUITests;
+			sourceTree = "<group>";
+		};
+		0413BF3626BE5112001F89F7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				043EC91F26BE621F00D9CE27 /* CustomTextField.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0413BF3726BE511F001F89F7 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		0413BF3826BE5121001F89F7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0413BF3926BE5122001F89F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0413BF3B26BE517E001F89F7 /* Authentication */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0413BF3A26BE5124001F89F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0413BF3B26BE517E001F89F7 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				0413BF3C26BE5197001F89F7 /* LoginView.swift */,
+				0413BF3E26BE51AA001F89F7 /* RegistrationView.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +316,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0413BF3D26BE5197001F89F7 /* LoginView.swift in Sources */,
 				0413BF0E26BE50BC001F89F7 /* ContentView.swift in Sources */,
 				0413BF0C26BE50BC001F89F7 /* ChatApp.swift in Sources */,
+				0413BF3F26BE51AA001F89F7 /* RegistrationView.swift in Sources */,
+				043EC92026BE621F00D9CE27 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
