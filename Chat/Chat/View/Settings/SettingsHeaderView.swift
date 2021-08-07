@@ -20,6 +20,7 @@ struct SettingsHeaderView: View {
             VStack(alignment: .leading, spacing: 4) {
                 Text("Jack Kuo")
                     .font(.system(size: 18))
+                    .foregroundColor(.black)
 
                 Text("Avaliable")
                     .foregroundColor(.gray)
