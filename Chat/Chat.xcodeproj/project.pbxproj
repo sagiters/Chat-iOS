@@ -25,6 +25,7 @@
 		043EC93326BE808E00D9CE27 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EC93226BE808E00D9CE27 /* SettingsCell.swift */; };
 		043EC93526BE836C00D9CE27 /* SettingsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EC93426BE836C00D9CE27 /* SettingsCellViewModel.swift */; };
 		043EC93726BE886500D9CE27 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EC93626BE886500D9CE27 /* EditProfileView.swift */; };
+		043EC93926BE8FBB00D9CE27 /* StatusSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EC93826BE8FBB00D9CE27 /* StatusSelectorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		043EC93226BE808E00D9CE27 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
 		043EC93426BE836C00D9CE27 /* SettingsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCellViewModel.swift; sourceTree = "<group>"; };
 		043EC93626BE886500D9CE27 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		043EC93826BE8FBB00D9CE27 /* StatusSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusSelectorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +236,7 @@
 				043EC93026BE800200D9CE27 /* SettingsHeaderView.swift */,
 				043EC93226BE808E00D9CE27 /* SettingsCell.swift */,
 				043EC93626BE886500D9CE27 /* EditProfileView.swift */,
+				043EC93826BE8FBB00D9CE27 /* StatusSelectorView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043EC93726BE886500D9CE27 /* EditProfileView.swift in Sources */,
+				043EC93926BE8FBB00D9CE27 /* StatusSelectorView.swift in Sources */,
 				0413BF3D26BE5197001F89F7 /* LoginView.swift in Sources */,
 				043EC92A26BE7B7E00D9CE27 /* SettingsView.swift in Sources */,
 				043EC93526BE836C00D9CE27 /* SettingsCellViewModel.swift in Sources */,
