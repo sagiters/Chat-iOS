@@ -36,6 +36,7 @@
 		043EC94926BEE25000D9CE27 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EC94826BEE25000D9CE27 /* Extensions.swift */; };
 		043EC94B26BEE3AA00D9CE27 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EC94A26BEE3AA00D9CE27 /* ChatBubble.swift */; };
 		043EC94D26BEE4B400D9CE27 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EC94C26BEE4B400D9CE27 /* MessageView.swift */; };
+		043EC94F26BEE8AA00D9CE27 /* CustomInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EC94E26BEE8AA00D9CE27 /* CustomInputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		043EC94826BEE25000D9CE27 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		043EC94A26BEE3AA00D9CE27 /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
 		043EC94C26BEE4B400D9CE27 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		043EC94E26BEE8AA00D9CE27 /* CustomInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +274,7 @@
 				043EC92B26BE7B9700D9CE27 /* ChatView.swift */,
 				043EC94A26BEE3AA00D9CE27 /* ChatBubble.swift */,
 				043EC94C26BEE4B400D9CE27 /* MessageView.swift */,
+				043EC94E26BEE8AA00D9CE27 /* CustomInputView.swift */,
 			);
 			path = Chats;
 			sourceTree = "<group>";
@@ -420,6 +423,7 @@
 				043EC93D26BE99CF00D9CE27 /* StatusViewModel.swift in Sources */,
 				043EC93B26BE953F00D9CE27 /* UserStatus.swift in Sources */,
 				043EC93726BE886500D9CE27 /* EditProfileView.swift in Sources */,
+				043EC94F26BEE8AA00D9CE27 /* CustomInputView.swift in Sources */,
 				043EC93F26BE9C2C00D9CE27 /* ImagePicker.swift in Sources */,
 				043EC93926BE8FBB00D9CE27 /* StatusSelectorView.swift in Sources */,
 				0413BF3D26BE5197001F89F7 /* LoginView.swift in Sources */,
