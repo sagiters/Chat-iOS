@@ -28,6 +28,7 @@
 		043EC93926BE8FBB00D9CE27 /* StatusSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EC93826BE8FBB00D9CE27 /* StatusSelectorView.swift */; };
 		043EC93B26BE953F00D9CE27 /* UserStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EC93A26BE953F00D9CE27 /* UserStatus.swift */; };
 		043EC93D26BE99CF00D9CE27 /* StatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EC93C26BE99CF00D9CE27 /* StatusViewModel.swift */; };
+		043EC93F26BE9C2C00D9CE27 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EC93E26BE9C2C00D9CE27 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		043EC93826BE8FBB00D9CE27 /* StatusSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusSelectorView.swift; sourceTree = "<group>"; };
 		043EC93A26BE953F00D9CE27 /* UserStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatus.swift; sourceTree = "<group>"; };
 		043EC93C26BE99CF00D9CE27 /* StatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewModel.swift; sourceTree = "<group>"; };
+		043EC93E26BE9C2C00D9CE27 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				043EC91F26BE621F00D9CE27 /* CustomTextField.swift */,
+				043EC93E26BE9C2C00D9CE27 /* ImagePicker.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				043EC93D26BE99CF00D9CE27 /* StatusViewModel.swift in Sources */,
 				043EC93B26BE953F00D9CE27 /* UserStatus.swift in Sources */,
 				043EC93726BE886500D9CE27 /* EditProfileView.swift in Sources */,
+				043EC93F26BE9C2C00D9CE27 /* ImagePicker.swift in Sources */,
 				043EC93926BE8FBB00D9CE27 /* StatusSelectorView.swift in Sources */,
 				0413BF3D26BE5197001F89F7 /* LoginView.swift in Sources */,
 				043EC92A26BE7B7E00D9CE27 /* SettingsView.swift in Sources */,
