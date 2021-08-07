@@ -9,7 +9,21 @@ import SwiftUI
 
 struct ChatView: View {
     var body: some View {
-        Text("ChatView")
+        VStack {
+            // messages
+            ScrollView {
+                VStack(alignment: .leading, spacing: 12) {
+                    ForEach((0 ... 10), id: \.self) { _ in
+                        MessageView(isFromCurrentUser: false)
+                    }
+                }
+            }
+
+            // input view
+        }
+        .navigationTitle("venom")
+        .navigationBarTitleDisplayMode(.inline)
+        .padding(.vertical)
     }
 }
 
