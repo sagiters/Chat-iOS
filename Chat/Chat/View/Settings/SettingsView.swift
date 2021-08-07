@@ -9,8 +9,32 @@ import SwiftUI
 
 struct SettingsView: View {
     var body: some View {
-        Text("SettingsView")
-            .navigationTitle("Settings")
+        ZStack {
+            Color(.systemGroupedBackground)
+                .ignoresSafeArea()
+
+            VStack(spacing: 32) {
+                SettingsHeaderView()
+
+                VStack(spacing: 1) {
+                    ForEach((0 ... 2), id: \.self) { _ in
+                        SettingsCell()
+                    }
+                }
+
+                Button(action: {
+                    print("Handle log out here..")
+                }, label: {
+                    Text("Log Out")
+                        .foregroundColor(.red)
+                        .font(.system(size: 16, weight: .semibold))
+                        .frame(width: UIScreen.main.bounds.width, height: 50)
+                        .background(Color.white)
+                })
+
+                Spacer()
+            }
+        }
     }
 }
 
