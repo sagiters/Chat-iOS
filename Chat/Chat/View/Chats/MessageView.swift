@@ -6,19 +6,19 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct MessageView: View {
 
-    var isFromCurrentUser: Bool
-    var messageText: String
+    let viewModel: MessageViewModel
 
     var body: some View {
         HStack {
-            if isFromCurrentUser {
+            if viewModel.isFromCurrentUser {
 
                 Spacer()
 
-                Text(messageText)
+                Text(viewModel.message.text)
                     .padding(12)
                     .background(Color(.systemBlue))
                     .font(.system(size: 15))
@@ -29,13 +29,13 @@ struct MessageView: View {
 
             } else {
                 HStack(alignment: .bottom) {
-                    Image("venom-7")
+                    KFImage(viewModel.profileImageUrl)
                         .resizable()
                         .scaledToFill()
                         .frame(width: 32, height: 32)
                         .clipShape(Circle())
 
-                    Text(messageText)
+                    Text(viewModel.message.text)
                         .padding(12)
                         .background(Color(.systemGray5))
                         .font(.system(size: 15))
@@ -51,8 +51,8 @@ struct MessageView: View {
     }
 }
 
-struct MessageView_Previews: PreviewProvider {
-    static var previews: some View {
-        MessageView(isFromCurrentUser: false, messageText: "Test message")
-    }
-}
+//struct MessageView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MessageView(isFromCurrentUser: false, messageText: "Test message")
+//    }
+//}

@@ -15,6 +15,7 @@
 		0413BF2926BE50BF001F89F7 /* ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413BF2826BE50BF001F89F7 /* ChatUITests.swift */; };
 		0413BF3D26BE5197001F89F7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413BF3C26BE5197001F89F7 /* LoginView.swift */; };
 		0413BF3F26BE51AA001F89F7 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413BF3E26BE51AA001F89F7 /* RegistrationView.swift */; };
+		0423E6C926C02FC70035CA54 /* MessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423E6C826C02FC70035CA54 /* MessageViewModel.swift */; };
 		043EC92026BE621F00D9CE27 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EC91F26BE621F00D9CE27 /* CustomTextField.swift */; };
 		043EC92326BE794500D9CE27 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EC92226BE794500D9CE27 /* MainTabView.swift */; };
 		043EC92826BE7B6D00D9CE27 /* ChannelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EC92726BE7B6D00D9CE27 /* ChannelsView.swift */; };
@@ -86,6 +87,7 @@
 		0413BF2A26BE50BF001F89F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0413BF3C26BE5197001F89F7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		0413BF3E26BE51AA001F89F7 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		0423E6C826C02FC70035CA54 /* MessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewModel.swift; sourceTree = "<group>"; };
 		043EC91F26BE621F00D9CE27 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		043EC92226BE794500D9CE27 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		043EC92726BE7B6D00D9CE27 /* ChannelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsView.swift; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 				043EC95226BEEBC000D9CE27 /* ChatViewModel.swift */,
 				049D938426BFBF1E00B14F51 /* AuthViewModel.swift */,
 				04E28E3D26C00A19000C37E3 /* NewMessageViewModel.swift */,
+				0423E6C826C02FC70035CA54 /* MessageViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -503,6 +506,7 @@
 				049D938526BFBF1E00B14F51 /* AuthViewModel.swift in Sources */,
 				043EC92026BE621F00D9CE27 /* CustomTextField.swift in Sources */,
 				043EC92326BE794500D9CE27 /* MainTabView.swift in Sources */,
+				0423E6C926C02FC70035CA54 /* MessageViewModel.swift in Sources */,
 				043EC94526BEDC4300D9CE27 /* UserCell.swift in Sources */,
 				043EC94D26BEE4B400D9CE27 /* MessageView.swift in Sources */,
 			);
