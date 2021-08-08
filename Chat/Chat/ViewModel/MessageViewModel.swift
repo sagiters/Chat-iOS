@@ -8,7 +8,12 @@
 import Foundation
 
 struct MessageViewModel {
+
     let message: Message
+
+    init(_ message: Message) {
+        self.message = message
+    }
 
     var currentUid: String {
         return AuthViewModel.shared.userSession?.uid ?? ""

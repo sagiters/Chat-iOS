@@ -44,6 +44,8 @@
 		049D938526BFBF1E00B14F51 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D938426BFBF1E00B14F51 /* AuthViewModel.swift */; };
 		049D938726BFC4BE00B14F51 /* ProfilePhotoSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D938626BFC4BE00B14F51 /* ProfilePhotoSelectorView.swift */; };
 		049D938926BFCBB600B14F51 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D938826BFCBB600B14F51 /* ImageUploader.swift */; };
+		04B34F8726C044E900978319 /* ConversationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B34F8626C044E900978319 /* ConversationsViewModel.swift */; };
+		04B34F8926C04B2F00978319 /* ConversationCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B34F8826C04B2F00978319 /* ConversationCellViewModel.swift */; };
 		04E28E2E26BFF432000C37E3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E28E2D26BFF432000C37E3 /* User.swift */; };
 		04E28E3126BFF68B000C37E3 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 04E28E3026BFF68B000C37E3 /* FirebaseFunctions */; };
 		04E28E3326BFF68B000C37E3 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 04E28E3226BFF68B000C37E3 /* FirebaseFirestoreSwift-Beta */; };
@@ -116,6 +118,8 @@
 		049D938426BFBF1E00B14F51 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		049D938626BFC4BE00B14F51 /* ProfilePhotoSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhotoSelectorView.swift; sourceTree = "<group>"; };
 		049D938826BFCBB600B14F51 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		04B34F8626C044E900978319 /* ConversationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewModel.swift; sourceTree = "<group>"; };
+		04B34F8826C04B2F00978319 /* ConversationCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCellViewModel.swift; sourceTree = "<group>"; };
 		04E28E2D26BFF432000C37E3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		04E28E3D26C00A19000C37E3 /* NewMessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageViewModel.swift; sourceTree = "<group>"; };
 		04E28E3F26C00A7D000C37E3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -240,12 +244,14 @@
 			isa = PBXGroup;
 			children = (
 				043EC93426BE836C00D9CE27 /* SettingsCellViewModel.swift */,
+				04B34F8826C04B2F00978319 /* ConversationCellViewModel.swift */,
 				043EC93A26BE953F00D9CE27 /* UserStatus.swift */,
 				043EC93C26BE99CF00D9CE27 /* StatusViewModel.swift */,
 				043EC95226BEEBC000D9CE27 /* ChatViewModel.swift */,
 				049D938426BFBF1E00B14F51 /* AuthViewModel.swift */,
 				04E28E3D26C00A19000C37E3 /* NewMessageViewModel.swift */,
 				0423E6C826C02FC70035CA54 /* MessageViewModel.swift */,
+				04B34F8626C044E900978319 /* ConversationsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -477,12 +483,14 @@
 				043EC94926BEE25000D9CE27 /* Extensions.swift in Sources */,
 				04E28E4026C00A7D000C37E3 /* Constants.swift in Sources */,
 				043EC93D26BE99CF00D9CE27 /* StatusViewModel.swift in Sources */,
+				04B34F8926C04B2F00978319 /* ConversationCellViewModel.swift in Sources */,
 				043EC93B26BE953F00D9CE27 /* UserStatus.swift in Sources */,
 				043EC93726BE886500D9CE27 /* EditProfileView.swift in Sources */,
 				04E28E2E26BFF432000C37E3 /* User.swift in Sources */,
 				043EC94F26BEE8AA00D9CE27 /* CustomInputView.swift in Sources */,
 				043EC93F26BE9C2C00D9CE27 /* ImagePicker.swift in Sources */,
 				049D938926BFCBB600B14F51 /* ImageUploader.swift in Sources */,
+				04B34F8726C044E900978319 /* ConversationsViewModel.swift in Sources */,
 				043EC93926BE8FBB00D9CE27 /* StatusSelectorView.swift in Sources */,
 				0413BF3D26BE5197001F89F7 /* LoginView.swift in Sources */,
 				043EC94B26BEE3AA00D9CE27 /* ChatBubble.swift in Sources */,
