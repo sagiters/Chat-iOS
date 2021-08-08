@@ -30,11 +30,7 @@ struct ConversationsView: View {
             ScrollView {
                 VStack(alignment: .leading) {
                     ForEach(viewModel.recentMessages) { message in
-                        NavigationLink(
-                            destination: ChatView(user: MOCK_USER),
-                            label: {
-                                ConversationCell(viewModel: MessageViewModel(message))
-                            })
+                        ConversationCell(viewModel: ConversationCellViewModel(message))
                     }
                 }
             }
