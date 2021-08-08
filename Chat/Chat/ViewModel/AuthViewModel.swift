@@ -6,6 +6,7 @@
 //
 
 import Firebase
+import UIKit
 
 class AuthViewModel: NSObject, ObservableObject {
 
@@ -32,7 +33,7 @@ class AuthViewModel: NSObject, ObservableObject {
         }
     }
 
-    func uploadProfileImage() {
+    func uploadProfileImage(_ image: UIImage) {
 
     }
 

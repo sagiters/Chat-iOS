@@ -45,6 +45,7 @@
 		049D938126BFBB2600B14F51 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 049D938026BFBB2600B14F51 /* FirebaseAuth */; };
 		049D938326BFBB2600B14F51 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 049D938226BFBB2600B14F51 /* FirebaseFirestore */; };
 		049D938526BFBF1E00B14F51 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D938426BFBF1E00B14F51 /* AuthViewModel.swift */; };
+		049D938726BFC4BE00B14F51 /* ProfilePhotoSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D938626BFC4BE00B14F51 /* ProfilePhotoSelectorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		043EC95226BEEBC000D9CE27 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		049D937926BFB9C900B14F51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		049D938426BFBF1E00B14F51 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		049D938626BFC4BE00B14F51 /* ProfilePhotoSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhotoSelectorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +258,7 @@
 			children = (
 				0413BF3C26BE5197001F89F7 /* LoginView.swift */,
 				0413BF3E26BE51AA001F89F7 /* RegistrationView.swift */,
+				049D938626BFC4BE00B14F51 /* ProfilePhotoSelectorView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 				043EC93526BE836C00D9CE27 /* SettingsCellViewModel.swift in Sources */,
 				043EC94726BEE00200D9CE27 /* SearchBar.swift in Sources */,
 				043EC94326BEDC3400D9CE27 /* NewMessageView.swift in Sources */,
+				049D938726BFC4BE00B14F51 /* ProfilePhotoSelectorView.swift in Sources */,
 				043EC93326BE808E00D9CE27 /* SettingsCell.swift in Sources */,
 				043EC92826BE7B6D00D9CE27 /* ChannelsView.swift in Sources */,
 				043EC93126BE800200D9CE27 /* SettingsHeaderView.swift in Sources */,
