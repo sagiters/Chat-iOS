@@ -33,6 +33,7 @@ class AuthViewModel: NSObject, ObservableObject {
             }
 
             self.userSession = result?.user
+            self.fetchUser()
         }
     }
 
