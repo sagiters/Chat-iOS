@@ -54,6 +54,9 @@ struct ConversationsView: View {
                 NewMessageView(showChatView: $showChatView, user: $selectedUser)
             })
         }
+        .onAppear {
+            viewModel.fetchRecentMessages()
+        }
     }
 }
 
