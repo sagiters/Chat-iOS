@@ -12,7 +12,9 @@ class AuthViewModel: NSObject, ObservableObject {
 
     @Published var didAuthenticateUser = false
     @Published var userSession: Firebase.User?
+    @Published var currentUser: User?
     private var tempCurrentUser: FirebaseAuth.User?
+
 
     static let shared = AuthViewModel()
 
@@ -75,7 +77,7 @@ class AuthViewModel: NSObject, ObservableObject {
 
             guard let user = try? snapshot?.data(as: User.self) else { return }
 
-            print("DEBUG: User object is \(user)")
+            self.currentUser = user
         }
     }
 }
