@@ -46,6 +46,7 @@
 		049D938326BFBB2600B14F51 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 049D938226BFBB2600B14F51 /* FirebaseFirestore */; };
 		049D938526BFBF1E00B14F51 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D938426BFBF1E00B14F51 /* AuthViewModel.swift */; };
 		049D938726BFC4BE00B14F51 /* ProfilePhotoSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D938626BFC4BE00B14F51 /* ProfilePhotoSelectorView.swift */; };
+		049D938926BFCBB600B14F51 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D938826BFCBB600B14F51 /* ImageUploader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		049D937926BFB9C900B14F51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		049D938426BFBF1E00B14F51 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		049D938626BFC4BE00B14F51 /* ProfilePhotoSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhotoSelectorView.swift; sourceTree = "<group>"; };
+		049D938826BFCBB600B14F51 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 		0413BF3726BE511F001F89F7 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				049D938826BFCBB600B14F51 /* ImageUploader.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				043EC93726BE886500D9CE27 /* EditProfileView.swift in Sources */,
 				043EC94F26BEE8AA00D9CE27 /* CustomInputView.swift in Sources */,
 				043EC93F26BE9C2C00D9CE27 /* ImagePicker.swift in Sources */,
+				049D938926BFCBB600B14F51 /* ImageUploader.swift in Sources */,
 				043EC93926BE8FBB00D9CE27 /* StatusSelectorView.swift in Sources */,
 				0413BF3D26BE5197001F89F7 /* LoginView.swift in Sources */,
 				043EC94B26BEE3AA00D9CE27 /* ChatBubble.swift in Sources */,
