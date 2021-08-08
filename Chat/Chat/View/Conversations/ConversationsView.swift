@@ -33,7 +33,7 @@ struct ConversationsView: View {
                         NavigationLink(
                             destination: ChatView(user: MOCK_USER),
                             label: {
-                                ConversationCell(viewModel: MessageViewModel(message: message))
+                                ConversationCell(viewModel: MessageViewModel(message))
                             })
                     }
                 }
