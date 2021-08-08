@@ -44,6 +44,7 @@
 		049D937F26BFBB2600B14F51 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 049D937E26BFBB2600B14F51 /* FirebaseStorage */; };
 		049D938126BFBB2600B14F51 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 049D938026BFBB2600B14F51 /* FirebaseAuth */; };
 		049D938326BFBB2600B14F51 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 049D938226BFBB2600B14F51 /* FirebaseFirestore */; };
+		049D938526BFBF1E00B14F51 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D938426BFBF1E00B14F51 /* AuthViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,7 @@
 		043EC95026BEEB4700D9CE27 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		043EC95226BEEBC000D9CE27 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		049D937926BFB9C900B14F51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		049D938426BFBF1E00B14F51 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +225,7 @@
 				043EC93A26BE953F00D9CE27 /* UserStatus.swift */,
 				043EC93C26BE99CF00D9CE27 /* StatusViewModel.swift */,
 				043EC95226BEEBC000D9CE27 /* ChatViewModel.swift */,
+				049D938426BFBF1E00B14F51 /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -470,6 +473,7 @@
 				043EC95126BEEB4700D9CE27 /* Message.swift in Sources */,
 				043EC95326BEEBC000D9CE27 /* ChatViewModel.swift in Sources */,
 				0413BF3F26BE51AA001F89F7 /* RegistrationView.swift in Sources */,
+				049D938526BFBF1E00B14F51 /* AuthViewModel.swift in Sources */,
 				043EC92026BE621F00D9CE27 /* CustomTextField.swift in Sources */,
 				043EC92326BE794500D9CE27 /* MainTabView.swift in Sources */,
 				043EC94526BEDC4300D9CE27 /* UserCell.swift in Sources */,
